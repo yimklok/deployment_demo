@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: #dadada;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(131, 131, 131);
+    border-radius: 5rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 10px auto;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 1rem 0;
+}
+.hotelCards{
+    width: 100%;
+    margin: 0 auto 20px;
+    box-shadow: 5px 10px 20px lightgrey;
+}
+.hotelCards img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+.title{
+    margin: .3em 0;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Stylish',sans-serif;
+    color: rgb(134,6,49);
+    text-decoration: underline;
+}
+.hotelCards p{
+    font-size: 15px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    padding: 10px;
+}
+.btn{
+    margin-bottom: 5px;
+    padding: 20px;
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid palevioletred;
+    font-size: 18px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s all ease;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgb(134,6,49);
+}
+@media (max-width: 991px){
+    .hotelCards img{
+        height: 50vh;
+    }
+}
+@media (max-width: 767px){
+    .hotelCards img{
+        height: 40vh;
+    }
+}
+@media (max-width: 575px){
+    .hotelCards img{
+        height: 30vh;
+    }
+}
