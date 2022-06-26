@@ -51,7 +51,7 @@ const HotelData=[
     },{
         id:9,
         imgsrc:"../images/img-9.jpg",
-        title:"Hotel Red",
+        title:"Hotel Black",
         text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eveniet rerum odio dicta incidunt molestias cupiditate ex et nostrum vitae. Dolores explicabo ut et consequatur itaque, eligendi, voluptates sint ab perspiciatis accusamus dolore. Aut ea dolores saepe earum repudiandae fugit, commodi, culpa fuga laborum molestias, nisi ex nulla corrupti modi.",
         btnText:"Read more"
     },{
